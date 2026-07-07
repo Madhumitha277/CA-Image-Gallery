@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <button id="themeToggle" class="theme-btn">🌙</button>
+
+        <h1>Modern Image Gallery</h1>
+
+        <p>Discover beautiful Nature, City, Travel & Animal photography.</p>
+
+        <div class="glass-box">
+            <input type="text" id="search" placeholder="🔍 Search beautiful images...">
+        </div>
+          <section class="filter-section">
+
+    <button class="filter-btn active" data-category="All">
+        🌍 <span>All</span>
+    </button>
+
+    <button class="filter-btn" data-category="Nature">
+        🌿 <span>Nature</span>
+    </button>
+
+    <button class="filter-btn" data-category="City">
+        🏙️ <span>City</span>
+    </button>
+
+    <button class="filter-btn" data-category="Animals">
+        🦁 <span>Animals</span>
+    </button>
+
+    <button class="filter-btn" data-category="Travel">
+        ✈️ <span>Travel</span>
+    </button>
+
+</section>
+   <p id="imageCount" class="image-count"></p>
+
+</div>
+
+</header>
+
+<section class="gallery-section">
+
+    <section class="gallery" id="gallery"></section>
+
+</section>   
+
+        
+
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close" id="closeBtn">&times;</span>
+
+    <button class="prev" id="prevBtn">&#10094;</button>
+
+    <img id="lightboxImage" src="" alt="Preview">
+
+    <button class="next" id="nextBtn">&#10095;</button>
+
+    <a id="downloadBtn" class="download-btn" download>
+        ⬇ Download
+    </a>
+
+</div>
+
+<footer>
+
+    <p>
+        Made with ❤️ using HTML • CSS • JavaScript
+        <br><br>
+        © 2026 Modern Image Gallery
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
